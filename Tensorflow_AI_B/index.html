@@ -12,25 +12,24 @@
         <link rel="stylesheet" href="style.css">
         <title>Kecerdasan Buatan B | Rifky Hernanda | 21120120130082 | Tensorflow Membuat identifikasi</title>
   </head>
-  <nav class="navbar navbar-expand-lg text-left navbar-light bg-light text-dark">
+  <nav class="navbar-expand-lg navbar-dark bg-light text-light" style="background-color: plum;">
         <div class="container-fluid text-dark" style="background-color: plum;">
-            <div class="text-center p-3 text-dark"  style="background-color :plum">
                 <img src="Logo_UNDIP.png" alt="logo_undip" width="45" height="50">
-                <span class="navbar-brand h1 text-dark">Kecerdasan Buatan B <a class="text-dark text-decoration-none text-right" href="https://github.com/RifkyHernanda/RifkyHernanda.github.io" target="_blank">| By : Rifky Hernanda</a></span>
-              </div>
+                <span class="navbar-brand h1 text-dark">Kecerdasan Buatan B <a class="text-dark text-decoration-none text-right" href="https://github.com/RifkyHernanda/RifkyHernanda.github.io" target="_blank">| Rifky Hernanda</a></span>
         </div> 
   </nav>
   <body>
         <div class="container text-center">
-            <div class="card-body">
-                <h1 class="card-title">Deteksi Headphone</h1>
-                <div class="card">
-                    Mendeteksi apakah menggunakan headphone atau tidak
+            <div class="card">
+                <div class="card-header text-dark">
+                    <h1 class="card-title">Deteksi Headphone</h1>
+                </div>
+                <div class="card-body">
+                    <h3>Deteksi headphone menggunakan teachable machine</h3>
                 </div>
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-            <p class="card-text">Teachable Machine Image Model</p>
-
-            <button type="button" class="btn btn-success" onclick="init()"data-bs-dismiss="modal">Mulai Deteksi</button>          
+                <p class="card-text">Teachable Machine Image Model</p>
+                <button type="button" class="btn btn-success" onclick="init()"data-bs-dismiss="modal">Mulai Deteksi</button>          
             </div>
             <div id="webcam-container"></div>
             <div id="label-container"></div>
@@ -90,15 +89,17 @@
             }
             </script>
         </div>
-  </body>
-  <footer>
-    <footer class="bg-light text-center text-dark">
-        <div class="text-center p-3" style="background-color :plum">
-          Developed by
-          <a class="text-dark text-decoration-none" href="https://github.com/RifkyHernanda/RifkyHernanda.github.io" target="_blank">Rifky Hernanda | 21120120130082 </a>
+        <div class="footer">
+            <footer class="bg-light text-center text-dark">
+                <div class="text-center p-3" style="background-color :plum">
+                  Developed by
+                  <a class="text-dark text-decoration-none" href="https://github.com/RifkyHernanda/RifkyHernanda.github.io" target="_blank">Rifky Hernanda | 21120120130082 </a>
+                </div>
+              </footer>
         </div>
-      </footer>
-    </footer>
+
+  </body>
+    
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
